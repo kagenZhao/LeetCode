@@ -40,7 +40,7 @@ extension Array where Element == Int {
 
 
 
-ReqularExpressionMatching1().isMatch("abc", "a*bc")
+//ReqularExpressionMatching1().isMatch("abc", "a*bc")
 
 //[
 //    [true, false, false, false, false, false],
