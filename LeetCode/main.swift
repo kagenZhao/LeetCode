@@ -33,6 +33,7 @@ extension Array where Element == Int {
     }
 }
 
+
 //print(AddTwoNumbers().addTwoNumbers([2, 4, 3].toNode, [5, 6, 4].toNode) ?? "")
 
 
@@ -58,10 +59,13 @@ extension Array where Element == Int {
 
 //print(RomanToInteger().romanToInt("DCXXI"))
 
+//print(LongestCommonPrefix().longestCommonPrefix(["a"]))
 
+//print(Sum3().threeSum([3,-2,1,0, 1,8, -9, 10, 4, -1, 2, 4, 6]))
 
+//print(Sum3Closest().threeSumClosest([1,2,4,8,16,32,64,128], 82))
 
+//print(LetterCombinationsOfAPhoneNumber().letterCombinations("23"))
 
-
-
+print(Sum4().fourSum([-3,-2,-1,0,0,1,2,3], 0))
 

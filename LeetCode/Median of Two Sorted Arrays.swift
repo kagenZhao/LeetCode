@@ -8,6 +8,24 @@
 
 import Foundation
 
+
+/*
+ 有两个排序的数组nums1和nums2分别为m和n大小。
+ 
+ 找到两个排序数组的中位数。整体运行时间复杂度应为O（log（m + n））。
+ 
+ Example 1:
+ nums1 = [1, 3]
+ nums2 = [2]
+ 
+ The median is 2.0
+ Example 2:
+ nums1 = [1, 2]
+ nums2 = [3, 4]
+ 
+ The median is (2 + 3)/2 = 2.5
+ */
+
 class MedianofTwoSortedArrays {
     
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {

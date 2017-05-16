@@ -8,6 +8,29 @@
 
 import Foundation
 
+
+/*
+ 
+ 实现正则表达式与支持匹配'.'和'*'。
+ 
+ '' 匹配任何单个字符。
+ '*'匹配零个或多个前面的元素。
+ 
+ 匹配应该覆盖整个输入字符串（不是部分的）。
+ 
+ 功能原型应为：
+ bool isMatch（const char * s，const char * p）
+ 
+ 一些例子：
+ isMatch（“aa”，“a”）→false
+ isMatch（“aa”，“aa”）→true
+ isMatch（“aaa”，“aa”）→false
+ isMatch（“aa”，“a *”）→true
+ isMatch（“aa”，“。*”）→true
+ isMatch（“ab”，“。*”）→true
+ isMatch（“aab”，“c * a * b”）→true
+ */
+
 /// 参考 动态规划 所实现 还没看懂
 class ReqularExpressionMatching1 {
     func isMatch(_ s: String, _ p: String) -> Bool {
