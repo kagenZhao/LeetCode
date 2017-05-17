@@ -67,5 +67,38 @@ extension Array where Element == Int {
 
 //print(LetterCombinationsOfAPhoneNumber().letterCombinations("23"))
 
-print(Sum4().fourSum([-3,-2,-1,0,0,1,2,3], 0))
+//print(Sum4().fourSum([-3,-2,-1,0,0,1,2,3], 0))
+
+//print(RemoveNthNodeFromEndOfList().removeNthFromEnd([1, 2].toNode, 1))
+
+
+//print(ValidParentheses().isValid("[([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([()])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])]]"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

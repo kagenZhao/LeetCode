@@ -16,6 +16,9 @@
 		3D261E0C1ECAF3360085C30F /* Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E0B1ECAF3360085C30F /* Reverse Integer.swift */; };
 		3D261E0E1ECAF3430085C30F /* String to Integer (atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E0D1ECAF3430085C30F /* String to Integer (atoi).swift */; };
 		3D261E101ECAF34E0085C30F /* Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E0F1ECAF34E0085C30F /* Palindrome Number.swift */; };
+		3D261E121ECAF6B40085C30F /* Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E111ECAF6B40085C30F /* Remove Nth Node From End of List.swift */; };
+		3D261E141ECB06A80085C30F /* Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E131ECB06A80085C30F /* Valid Parentheses.swift */; };
+		3D261E161ECBDB110085C30F /* Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E151ECBDB110085C30F /* Merge Two Sorted Lists.swift */; };
 		3D62A5401EC6C822003DC74D /* Integer to Roman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62A53F1EC6C822003DC74D /* Integer to Roman.swift */; };
 		3D6BFDE11EA39A3A003E735E /* Reqular Expression Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BFDE01EA39A3A003E735E /* Reqular Expression Matching.swift */; };
 		3D727EA21EC8A61200367884 /* Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D727EA11EC8A61200367884 /* Roman to Integer.swift */; };
@@ -50,6 +53,9 @@
 		3D261E0B1ECAF3360085C30F /* Reverse Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reverse Integer.swift"; sourceTree = "<group>"; };
 		3D261E0D1ECAF3430085C30F /* String to Integer (atoi).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String to Integer (atoi).swift"; sourceTree = "<group>"; };
 		3D261E0F1ECAF34E0085C30F /* Palindrome Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Palindrome Number.swift"; sourceTree = "<group>"; };
+		3D261E111ECAF6B40085C30F /* Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
+		3D261E131ECB06A80085C30F /* Valid Parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Valid Parentheses.swift"; sourceTree = "<group>"; };
+		3D261E151ECBDB110085C30F /* Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
 		3D62A53F1EC6C822003DC74D /* Integer to Roman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer to Roman.swift"; sourceTree = "<group>"; };
 		3D6BFDE01EA39A3A003E735E /* Reqular Expression Matching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reqular Expression Matching.swift"; sourceTree = "<group>"; };
 		3D727EA11EC8A61200367884 /* Roman to Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Roman to Integer.swift"; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				3D261E011ECAA4130085C30F /* 3Sum Closest.swift */,
 				3D261E031ECACC470085C30F /* Letter Combinations of a Phone Number.swift */,
 				3D261E051ECAD8E00085C30F /* Sum4.swift */,
+				3D261E111ECAF6B40085C30F /* Remove Nth Node From End of List.swift */,
+				3D261E131ECB06A80085C30F /* Valid Parentheses.swift */,
+				3D261E151ECBDB110085C30F /* Merge Two Sorted Lists.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -178,6 +187,7 @@
 				3D0C285D1EC6C67300DE3801 /* Container With Most Water.swift in Sources */,
 				3D727EA61EC9509300367884 /* 3Sum.swift in Sources */,
 				3D261E0C1ECAF3360085C30F /* Reverse Integer.swift in Sources */,
+				3D261E121ECAF6B40085C30F /* Remove Nth Node From End of List.swift in Sources */,
 				3DFF0A401E8CB280002431E9 /* main.swift in Sources */,
 				3DFF0A491E8CC823002431E9 /* Add Two Number.swift in Sources */,
 				3D261E0A1ECAF3290085C30F /* ZigZag Conversion.swift in Sources */,
@@ -185,8 +195,10 @@
 				3D261E041ECACC470085C30F /* Letter Combinations of a Phone Number.swift in Sources */,
 				3DFF0A4D1E8D10AE002431E9 /* Median of Two Sorted Arrays.swift in Sources */,
 				3D727EA41EC8B0A300367884 /* Longest Common Prefix.swift in Sources */,
+				3D261E161ECBDB110085C30F /* Merge Two Sorted Lists.swift in Sources */,
 				3D6BFDE11EA39A3A003E735E /* Reqular Expression Matching.swift in Sources */,
 				3DFF0A471E8CB2C1002431E9 /* Two Sum.swift in Sources */,
+				3D261E141ECB06A80085C30F /* Valid Parentheses.swift in Sources */,
 				3DFF0A4B1E8CDE5C002431E9 /* Longest Substring Without Repeating Characters.swift in Sources */,
 				3D261E081ECAF3110085C30F /* Longest Palindromic Substring.swift in Sources */,
 				3D261E021ECAA4130085C30F /* 3Sum Closest.swift in Sources */,

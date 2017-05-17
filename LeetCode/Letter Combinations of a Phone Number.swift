@@ -24,7 +24,7 @@ class LetterCombinationsOfAPhoneNumber {
                                                  "6": ["m", "n", "o"], "7": ["p", "q", "r", "s"], "8": ["t", "u", "v"], "9": ["w", "x", "y", "z"], "0": ["0"]]
     func letterCombinations(_ digits: String) -> [String] {
         return digits.characters
-            .reduce([[String]]()) { (r, c)  in
+            .reduce([]) { (r, c)  in
                 return r + [LetterCombinationsOfAPhoneNumber.telStrs[c]!]
             }.reduce([]) { (r, ss) in
                 return ss.flatMap({ (s) in
