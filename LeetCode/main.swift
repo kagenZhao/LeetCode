@@ -17,6 +17,13 @@ public class ListNode {
     }
 }
 
+extension ListNode {
+    public var count: Int {
+        return 1 + (next?.count ?? 0)
+    }
+}
+
+
 extension ListNode: CustomStringConvertible {
     public var description: String {
         return "\(val) -> \(next != nil ? next!.description : "")"
@@ -72,17 +79,18 @@ extension Array where Element == Int {
 //print(RemoveNthNodeFromEndOfList().removeNthFromEnd([1, 2].toNode, 1))
 
 
-//print(ValidParentheses().isValid("[([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([([()])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])])]]"))
+//print(ValidParentheses().isValid("[([([])])]]"))
 
 
-print(GenerateParentheses().generateParenthesis(3))
+//print(GenerateParentheses().generateParenthesis(3))
 
-
-
-
+//print(MergeKSortedLists().mergeKLists([[Int]().toNode, [1].toNode]))
 
 
 
+//print(SwapNodesInPairs().swapPairs([1, 2, 3, 4].toNode!))
+
+//print(ReverseNodesInkGroup().reverseKGroup([1, 2, 3].toNode, 4))
 
 
 
