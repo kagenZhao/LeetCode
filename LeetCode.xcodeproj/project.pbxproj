@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041478EE1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041478ED1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift */; };
+		047F7D551EEF81C00049121E /* Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D541EEF81C00049121E /* Remove Element.swift */; };
+		047F7D571EEF87030049121E /* Implement strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D561EEF87030049121E /* Implement strStr().swift */; };
 		3D0C285D1EC6C67300DE3801 /* Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C285C1EC6C67300DE3801 /* Container With Most Water.swift */; };
 		3D261E021ECAA4130085C30F /* 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E011ECAA4130085C30F /* 3Sum Closest.swift */; };
 		3D261E041ECACC470085C30F /* Letter Combinations of a Phone Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E031ECACC470085C30F /* Letter Combinations of a Phone Number.swift */; };
@@ -48,6 +51,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		041478ED1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
+		047F7D541EEF81C00049121E /* Remove Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Element.swift"; sourceTree = "<group>"; };
+		047F7D561EEF87030049121E /* Implement strStr().swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Implement strStr().swift"; sourceTree = "<group>"; };
 		3D0C285C1EC6C67300DE3801 /* Container With Most Water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container With Most Water.swift"; sourceTree = "<group>"; };
 		3D261E011ECAA4130085C30F /* 3Sum Closest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3Sum Closest.swift"; sourceTree = "<group>"; };
 		3D261E031ECACC470085C30F /* Letter Combinations of a Phone Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Letter Combinations of a Phone Number.swift"; sourceTree = "<group>"; };
@@ -133,6 +139,9 @@
 				3D688B881ECEC1B3001A47C3 /* Merge k Sorted Lists.swift */,
 				3D688B8A1ECEF8CC001A47C3 /* Swap Nodes in Pairs.swift */,
 				3DF8D1811ED2B90F004E73E6 /* Reverse Nodes in k-Group.swift */,
+				041478ED1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift */,
+				047F7D541EEF81C00049121E /* Remove Element.swift */,
+				047F7D561EEF87030049121E /* Implement strStr().swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -196,10 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047F7D551EEF81C00049121E /* Remove Element.swift in Sources */,
 				3D688B891ECEC1B3001A47C3 /* Merge k Sorted Lists.swift in Sources */,
 				3D0C285D1EC6C67300DE3801 /* Container With Most Water.swift in Sources */,
 				3D727EA61EC9509300367884 /* 3Sum.swift in Sources */,
 				3D261E0C1ECAF3360085C30F /* Reverse Integer.swift in Sources */,
+				047F7D571EEF87030049121E /* Implement strStr().swift in Sources */,
 				3D261E121ECAF6B40085C30F /* Remove Nth Node From End of List.swift in Sources */,
 				3DFF0A401E8CB280002431E9 /* main.swift in Sources */,
 				3DFF0A491E8CC823002431E9 /* Add Two Number.swift in Sources */,
@@ -217,6 +228,7 @@
 				3D261E081ECAF3110085C30F /* Longest Palindromic Substring.swift in Sources */,
 				3D261E021ECAA4130085C30F /* 3Sum Closest.swift in Sources */,
 				3D261E0E1ECAF3430085C30F /* String to Integer (atoi).swift in Sources */,
+				041478EE1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift in Sources */,
 				3D261E061ECAD8E00085C30F /* Sum4.swift in Sources */,
 				3DF8D1821ED2B90F004E73E6 /* Reverse Nodes in k-Group.swift in Sources */,
 				3D62A5401EC6C822003DC74D /* Integer to Roman.swift in Sources */,

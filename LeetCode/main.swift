@@ -92,10 +92,16 @@ extension Array where Element == Int {
 
 //print(ReverseNodesInkGroup().reverseKGroup([1, 2, 3].toNode, 4))
 
+//var num = [Int](arrayLiteral: 1, 2, 3, 4, 5, 5, 6)
+//print(RemoveDuplicatesFromSortedArray().removeDuplicates(&num))
 
 
+// var num = [3, 2, 2, 3]
+//print(RemoveElement().removeElement(&num, 3))
+//print(num)
 
 
+print(ImplementStrStr().strStr("asdfggg", "df"))
 
 
 

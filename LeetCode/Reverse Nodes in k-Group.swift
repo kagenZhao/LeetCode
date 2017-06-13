@@ -39,7 +39,7 @@ class ReverseNodesInkGroup {
      */
     func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
         guard k > 1 else { return head }
-        var p = head
+        let p = head
         var ps = [ListNode]()
         var next: ListNode?
         var tp = p
