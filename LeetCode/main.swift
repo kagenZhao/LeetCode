@@ -101,10 +101,9 @@ extension Array where Element == Int {
 //print(num)
 
 
-print(ImplementStrStr().strStr("asdfggg", "df"))
+//print(ImplementStrStr().strStr("asdfggg", "df"))
 
-
-
+print(DivideTwoIntegers().divide(66, 3))
 
 
 

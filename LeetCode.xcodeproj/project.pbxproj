@@ -10,6 +10,7 @@
 		041478EE1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041478ED1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift */; };
 		047F7D551EEF81C00049121E /* Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D541EEF81C00049121E /* Remove Element.swift */; };
 		047F7D571EEF87030049121E /* Implement strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D561EEF87030049121E /* Implement strStr().swift */; };
+		047F7D591EEF8B400049121E /* Divide Two Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D581EEF8B400049121E /* Divide Two Integers.swift */; };
 		3D0C285D1EC6C67300DE3801 /* Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C285C1EC6C67300DE3801 /* Container With Most Water.swift */; };
 		3D261E021ECAA4130085C30F /* 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E011ECAA4130085C30F /* 3Sum Closest.swift */; };
 		3D261E041ECACC470085C30F /* Letter Combinations of a Phone Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E031ECACC470085C30F /* Letter Combinations of a Phone Number.swift */; };
@@ -54,6 +55,7 @@
 		041478ED1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		047F7D541EEF81C00049121E /* Remove Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Remove Element.swift"; sourceTree = "<group>"; };
 		047F7D561EEF87030049121E /* Implement strStr().swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Implement strStr().swift"; sourceTree = "<group>"; };
+		047F7D581EEF8B400049121E /* Divide Two Integers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Divide Two Integers.swift"; sourceTree = "<group>"; };
 		3D0C285C1EC6C67300DE3801 /* Container With Most Water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container With Most Water.swift"; sourceTree = "<group>"; };
 		3D261E011ECAA4130085C30F /* 3Sum Closest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3Sum Closest.swift"; sourceTree = "<group>"; };
 		3D261E031ECACC470085C30F /* Letter Combinations of a Phone Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Letter Combinations of a Phone Number.swift"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				041478ED1ED67FD800E0FDC2 /* Remove Duplicates from Sorted Array.swift */,
 				047F7D541EEF81C00049121E /* Remove Element.swift */,
 				047F7D561EEF87030049121E /* Implement strStr().swift */,
+				047F7D581EEF8B400049121E /* Divide Two Integers.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				047F7D571EEF87030049121E /* Implement strStr().swift in Sources */,
 				3D261E121ECAF6B40085C30F /* Remove Nth Node From End of List.swift in Sources */,
 				3DFF0A401E8CB280002431E9 /* main.swift in Sources */,
+				047F7D591EEF8B400049121E /* Divide Two Integers.swift in Sources */,
 				3DFF0A491E8CC823002431E9 /* Add Two Number.swift in Sources */,
 				3D261E0A1ECAF3290085C30F /* ZigZag Conversion.swift in Sources */,
 				3D727EA21EC8A61200367884 /* Roman to Integer.swift in Sources */,
