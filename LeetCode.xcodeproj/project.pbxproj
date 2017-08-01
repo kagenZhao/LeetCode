@@ -31,6 +31,7 @@
 		3D727EA21EC8A61200367884 /* 13 Roman to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D727EA11EC8A61200367884 /* 13 Roman to Integer.swift */; };
 		3D727EA41EC8B0A300367884 /* 14 Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D727EA31EC8B0A300367884 /* 14 Longest Common Prefix.swift */; };
 		3D727EA61EC9509300367884 /* 15 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D727EA51EC9509300367884 /* 15 3Sum.swift */; };
+		3D72B61C1F301AAA00646E31 /* 31 Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72B61B1F301AAA00646E31 /* 31 Next Permutation.swift */; };
 		3D81FDB81F2F18BF00DA9C7C /* 30 Substring with Concatenation of All Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81FDB71F2F18BF00DA9C7C /* 30 Substring with Concatenation of All Words.swift */; };
 		3DF8D1821ED2B90F004E73E6 /* 25 Reverse Nodes in k-Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8D1811ED2B90F004E73E6 /* 25 Reverse Nodes in k-Group.swift */; };
 		3DFF0A401E8CB280002431E9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFF0A3F1E8CB280002431E9 /* main.swift */; };
@@ -77,6 +78,7 @@
 		3D727EA11EC8A61200367884 /* 13 Roman to Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "13 Roman to Integer.swift"; sourceTree = "<group>"; };
 		3D727EA31EC8B0A300367884 /* 14 Longest Common Prefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "14 Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		3D727EA51EC9509300367884 /* 15 3Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "15 3Sum.swift"; sourceTree = "<group>"; };
+		3D72B61B1F301AAA00646E31 /* 31 Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "31 Next Permutation.swift"; sourceTree = "<group>"; };
 		3D81FDB71F2F18BF00DA9C7C /* 30 Substring with Concatenation of All Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "30 Substring with Concatenation of All Words.swift"; sourceTree = "<group>"; };
 		3DF8D1811ED2B90F004E73E6 /* 25 Reverse Nodes in k-Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "25 Reverse Nodes in k-Group.swift"; sourceTree = "<group>"; };
 		3DFF0A3C1E8CB280002431E9 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				047F7D561EEF87030049121E /* 28 Implement strStr().swift */,
 				047F7D581EEF8B400049121E /* 29 Divide Two Integers.swift */,
 				3D81FDB71F2F18BF00DA9C7C /* 30 Substring with Concatenation of All Words.swift */,
+				3D72B61B1F301AAA00646E31 /* 31 Next Permutation.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				3D727EA21EC8A61200367884 /* 13 Roman to Integer.swift in Sources */,
 				3D261E041ECACC470085C30F /* 17 Letter Combinations of a Phone Number.swift in Sources */,
 				3DFF0A4D1E8D10AE002431E9 /* 4 Median of Two Sorted Arrays.swift in Sources */,
+				3D72B61C1F301AAA00646E31 /* 31 Next Permutation.swift in Sources */,
 				3D727EA41EC8B0A300367884 /* 14 Longest Common Prefix.swift in Sources */,
 				3D261E161ECBDB110085C30F /* 21 Merge Two Sorted Lists.swift in Sources */,
 				3D6BFDE11EA39A3A003E735E /* 10 Reqular Expression Matching.swift in Sources */,
