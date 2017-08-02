@@ -49,7 +49,6 @@ import Cocoa
 
 // 6 9 4 8 7 5 5 -> 6 9 5 8 7 4 -> 6 9 5 4 7 8
 
-
 class Next_Permutation: NSObject {
     func nextPermutation(_ nums: inout [Int]) {
         var i = nums.count - 2, j = i + 1
