@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		041478EE1ED67FD800E0FDC2 /* 26 Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041478ED1ED67FD800E0FDC2 /* 26 Remove Duplicates from Sorted Array.swift */; };
+		0414C7DD1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414C7DC1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift */; };
 		047F7D551EEF81C00049121E /* 27 Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D541EEF81C00049121E /* 27 Remove Element.swift */; };
 		047F7D571EEF87030049121E /* 28 Implement strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D561EEF87030049121E /* 28 Implement strStr().swift */; };
 		047F7D591EEF8B400049121E /* 29 Divide Two Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D581EEF8B400049121E /* 29 Divide Two Integers.swift */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		041478ED1ED67FD800E0FDC2 /* 26 Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "26 Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
+		0414C7DC1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33 Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		047F7D541EEF81C00049121E /* 27 Remove Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "27 Remove Element.swift"; sourceTree = "<group>"; };
 		047F7D561EEF87030049121E /* 28 Implement strStr().swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "28 Implement strStr().swift"; sourceTree = "<group>"; };
 		047F7D581EEF8B400049121E /* 29 Divide Two Integers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "29 Divide Two Integers.swift"; sourceTree = "<group>"; };
@@ -71,7 +73,6 @@
 		3D261E111ECAF6B40085C30F /* 19 Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "19 Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		3D261E131ECB06A80085C30F /* 20 Valid Parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "20 Valid Parentheses.swift"; sourceTree = "<group>"; };
 		3D261E151ECBDB110085C30F /* 21 Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21 Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
-		3D49F35E1F3198AD00F49B8E /* 32 Longest Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32 Longest Valid Parentheses.swift"; sourceTree = "<group>"; };
 		3D49F3641F319AB100F49B8E /* 32 Longest Valid Parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "32 Longest Valid Parentheses.swift"; sourceTree = "<group>"; };
 		3D62A53F1EC6C822003DC74D /* 12 Integer to Roman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "12 Integer to Roman.swift"; sourceTree = "<group>"; };
 		3D688B861ECE9F30001A47C3 /* 22 Generate Parentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "22 Generate Parentheses.swift"; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 		3D49F3631F319A7100F49B8E /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				3D49F35E1F3198AD00F49B8E /* 32 Longest Valid Parentheses.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -164,6 +164,7 @@
 				3D81FDB71F2F18BF00DA9C7C /* 30 Substring with Concatenation of All Words.swift */,
 				3D72B61B1F301AAA00646E31 /* 31 Next Permutation.swift */,
 				3D49F3641F319AB100F49B8E /* 32 Longest Valid Parentheses.swift */,
+				0414C7DC1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -228,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0414C7DD1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift in Sources */,
 				047F7D551EEF81C00049121E /* 27 Remove Element.swift in Sources */,
 				3D688B891ECEC1B3001A47C3 /* 23 Merge k Sorted Lists.swift in Sources */,
 				3D0C285D1EC6C67300DE3801 /* 11 Container With Most Water.swift in Sources */,
