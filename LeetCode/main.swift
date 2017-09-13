@@ -112,7 +112,9 @@ extension Array where Element == Int {
 //print(Next_Permutation().nextPermutation(&nums))
 
 
-print(Search_in_Rotated_Sorted_Array().search([1,3], 0))
+//print(Search_in_Rotated_Sorted_Array().search([1,3], 0))
+
+print(Search_for_a_Range().searchRange([2, 2], 3))
 
 
 
