@@ -108,10 +108,11 @@ extension Array where Element == Int {
 
 //print(SubstringwithConcatenationofAllWords().findSubstring("a", ["a"]))
 
-var nums = [5,4,7,5,3,2]
-print(Next_Permutation().nextPermutation(&nums))
+//var nums = [5,4,7,5,3,2]
+//print(Next_Permutation().nextPermutation(&nums))
 
 
+print(Search_in_Rotated_Sorted_Array().search([1,3], 0))
 
 
 

@@ -8,6 +8,21 @@
 
 import Cocoa
 
+
+
+/*
+ 
+ Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+ 
+ For "(()", the longest valid parentheses substring is "()", which has length = 2.
+ 
+ Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
+ 
+ 
+依然用缓存区思想,  吧每一个 完整的 ) 对应的 maxL 存到缓存区 最后取最大的
+ 
+ */
+
 class Longest_Valid_Parentheses: NSObject {
     func longestValidParentheses(_ s: String) -> Int {
         return longestValidParentheses(chars: [Character](s.characters))
