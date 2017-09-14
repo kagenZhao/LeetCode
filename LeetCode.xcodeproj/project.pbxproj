@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		041478EE1ED67FD800E0FDC2 /* 26 Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041478ED1ED67FD800E0FDC2 /* 26 Remove Duplicates from Sorted Array.swift */; };
-		0414C7DD1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414C7DC1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift */; };
 		047F7D551EEF81C00049121E /* 27 Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D541EEF81C00049121E /* 27 Remove Element.swift */; };
 		047F7D571EEF87030049121E /* 28 Implement strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D561EEF87030049121E /* 28 Implement strStr().swift */; };
 		047F7D591EEF8B400049121E /* 29 Divide Two Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D581EEF8B400049121E /* 29 Divide Two Integers.swift */; };
 		3D0C285D1EC6C67300DE3801 /* 11 Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C285C1EC6C67300DE3801 /* 11 Container With Most Water.swift */; };
+		3D238E5B1F6A273900B6B3F3 /* 35 Search Insert Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D238E5A1F6A273900B6B3F3 /* 35 Search Insert Position.swift */; };
+		3D238E5D1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D238E5C1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift */; };
 		3D261E021ECAA4130085C30F /* 16 3Sum Closest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E011ECAA4130085C30F /* 16 3Sum Closest.swift */; };
 		3D261E041ECACC470085C30F /* 17 Letter Combinations of a Phone Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E031ECACC470085C30F /* 17 Letter Combinations of a Phone Number.swift */; };
 		3D261E061ECAD8E00085C30F /* 18 Sum4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D261E051ECAD8E00085C30F /* 18 Sum4.swift */; };
@@ -59,11 +60,12 @@
 
 /* Begin PBXFileReference section */
 		041478ED1ED67FD800E0FDC2 /* 26 Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "26 Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
-		0414C7DC1F41369E000BF58C /* 33 Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33 Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		047F7D541EEF81C00049121E /* 27 Remove Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "27 Remove Element.swift"; sourceTree = "<group>"; };
 		047F7D561EEF87030049121E /* 28 Implement strStr().swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "28 Implement strStr().swift"; sourceTree = "<group>"; };
 		047F7D581EEF8B400049121E /* 29 Divide Two Integers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "29 Divide Two Integers.swift"; sourceTree = "<group>"; };
 		3D0C285C1EC6C67300DE3801 /* 11 Container With Most Water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11 Container With Most Water.swift"; sourceTree = "<group>"; };
+		3D238E5A1F6A273900B6B3F3 /* 35 Search Insert Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35 Search Insert Position.swift"; sourceTree = "<group>"; };
+		3D238E5C1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36 Valid Sudoku.swift"; sourceTree = "<group>"; };
 		3D261E011ECAA4130085C30F /* 16 3Sum Closest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "16 3Sum Closest.swift"; sourceTree = "<group>"; };
 		3D261E031ECACC470085C30F /* 17 Letter Combinations of a Phone Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "17 Letter Combinations of a Phone Number.swift"; sourceTree = "<group>"; };
 		3D261E051ECAD8E00085C30F /* 18 Sum4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "18 Sum4.swift"; sourceTree = "<group>"; };
@@ -170,6 +172,8 @@
 				3D49F3641F319AB100F49B8E /* 32 Longest Valid Parentheses.swift */,
 				3DBAC5A01F68EE7500609BBF /* 33 Search in Rotated Sorted Array.swift */,
 				3DBAC5A21F68F3BB00609BBF /* 34 Search for a Range.swift */,
+				3D238E5A1F6A273900B6B3F3 /* 35 Search Insert Position.swift */,
+				3D238E5C1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -240,6 +244,7 @@
 				3D688B891ECEC1B3001A47C3 /* 23 Merge k Sorted Lists.swift in Sources */,
 				3D0C285D1EC6C67300DE3801 /* 11 Container With Most Water.swift in Sources */,
 				3D727EA61EC9509300367884 /* 15 3Sum.swift in Sources */,
+				3D238E5B1F6A273900B6B3F3 /* 35 Search Insert Position.swift in Sources */,
 				3D49F3661F319B5B00F49B8E /* 31 Next Permutation.swift in Sources */,
 				3D261E0C1ECAF3360085C30F /* 7 Reverse Integer.swift in Sources */,
 				047F7D571EEF87030049121E /* 28 Implement strStr().swift in Sources */,
@@ -251,6 +256,7 @@
 				3D81FDB81F2F18BF00DA9C7C /* 30 Substring with Concatenation of All Words.swift in Sources */,
 				3D727EA21EC8A61200367884 /* 13 Roman to Integer.swift in Sources */,
 				3D261E041ECACC470085C30F /* 17 Letter Combinations of a Phone Number.swift in Sources */,
+				3D238E5D1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift in Sources */,
 				3DFF0A4D1E8D10AE002431E9 /* 4 Median of Two Sorted Arrays.swift in Sources */,
 				3D727EA41EC8B0A300367884 /* 14 Longest Common Prefix.swift in Sources */,
 				3D261E161ECBDB110085C30F /* 21 Merge Two Sorted Lists.swift in Sources */,

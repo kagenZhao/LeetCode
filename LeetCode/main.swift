@@ -114,9 +114,9 @@ extension Array where Element == Int {
 
 //print(Search_in_Rotated_Sorted_Array().search([1,3], 0))
 
-print(Search_for_a_Range().searchRange([2, 2], 3))
+//print(Search_for_a_Range().searchRange([5,7,7,8,8,10], 8))
 
-
+print(Search_Insert_Position().searchInsert([1,3], 4))
 
 
 
