@@ -18,8 +18,8 @@ import Foundation
 
 class ImplementStrStr {
     func strStr(_ haystack: String, _ needle: String) -> Int {
-        let hayChars = [Character](haystack.characters)
-        let needleChars = [Character](needle.characters)
+        let hayChars = [Character](haystack)
+        let needleChars = [Character](needle)
         guard hayChars.count >= needleChars.count else { return -1 }
         guard needleChars.count > 0 else { return 0 }
         var i = 0

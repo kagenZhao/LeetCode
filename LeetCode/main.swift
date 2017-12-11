@@ -150,6 +150,8 @@ extension Array where Element == Int {
 //print(Combination_Sum().combinationSum([2, 3, 5], 8))
 
 
-print(Combination_Sum_II().combinationSum2([4,4,2,1,4,2,2,1,3], 6))
+//print(Combination_Sum_II().combinationSum2([4,4,2,1,4,2,2,1,3], 6))
+
+print(First_Missing_Positive().firstMissingPositive([-1,4,2,1,9,10]))
 
 
