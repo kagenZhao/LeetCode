@@ -25,7 +25,7 @@ import Cocoa
 
 class Longest_Valid_Parentheses: NSObject {
     func longestValidParentheses(_ s: String) -> Int {
-        return longestValidParentheses(chars: [Character](s.characters))
+        return longestValidParentheses(chars: [Character](s))
     }
     
     

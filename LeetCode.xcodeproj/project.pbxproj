@@ -11,6 +11,7 @@
 		047F7D551EEF81C00049121E /* 27 Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D541EEF81C00049121E /* 27 Remove Element.swift */; };
 		047F7D571EEF87030049121E /* 28 Implement strStr().swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D561EEF87030049121E /* 28 Implement strStr().swift */; };
 		047F7D591EEF8B400049121E /* 29 Divide Two Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F7D581EEF8B400049121E /* 29 Divide Two Integers.swift */; };
+		048DC242216DD56D00039E6A /* 42 接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DC241216DD56D00039E6A /* 42 接雨水.swift */; };
 		3D0C285D1EC6C67300DE3801 /* 11 Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C285C1EC6C67300DE3801 /* 11 Container With Most Water.swift */; };
 		3D238E5B1F6A273900B6B3F3 /* 35 Search Insert Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D238E5A1F6A273900B6B3F3 /* 35 Search Insert Position.swift */; };
 		3D238E5D1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D238E5C1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift */; };
@@ -68,6 +69,7 @@
 		047F7D541EEF81C00049121E /* 27 Remove Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "27 Remove Element.swift"; sourceTree = "<group>"; };
 		047F7D561EEF87030049121E /* 28 Implement strStr().swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "28 Implement strStr().swift"; sourceTree = "<group>"; };
 		047F7D581EEF8B400049121E /* 29 Divide Two Integers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "29 Divide Two Integers.swift"; sourceTree = "<group>"; };
+		048DC241216DD56D00039E6A /* 42 接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42 接雨水.swift"; sourceTree = "<group>"; };
 		3D0C285C1EC6C67300DE3801 /* 11 Container With Most Water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11 Container With Most Water.swift"; sourceTree = "<group>"; };
 		3D238E5A1F6A273900B6B3F3 /* 35 Search Insert Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35 Search Insert Position.swift"; sourceTree = "<group>"; };
 		3D238E5C1F6A2E2100B6B3F3 /* 36 Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36 Valid Sudoku.swift"; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				3D71B7161FD92D10002C5DB8 /* 39 Combination Sum.swift */,
 				3D4210C81FDA5D5600B63238 /* 40 Combination Sum II.swift */,
 				3D2B50EB1FDE5EEE00307FA5 /* 41 First Missing Positive.swift */,
+				048DC241216DD56D00039E6A /* 42 接雨水.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -220,7 +223,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = kagenZhao;
 				TargetAttributes = {
 					3DFF0A3B1E8CB280002431E9 = {
@@ -278,6 +281,7 @@
 				3D5C78BA1FD52123004724CB /* 37 Sudoku Solver.swift in Sources */,
 				3D261E161ECBDB110085C30F /* 21 Merge Two Sorted Lists.swift in Sources */,
 				3D6BFDE11EA39A3A003E735E /* 10 Reqular Expression Matching.swift in Sources */,
+				048DC242216DD56D00039E6A /* 42 接雨水.swift in Sources */,
 				3D688B871ECE9F30001A47C3 /* 22 Generate Parentheses.swift in Sources */,
 				3DFF0A471E8CB2C1002431E9 /* 1 Two Sum.swift in Sources */,
 				3D261E141ECB06A80085C30F /* 20 Valid Parentheses.swift in Sources */,
@@ -315,6 +319,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -322,6 +327,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -370,6 +376,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -377,6 +384,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -409,8 +417,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = RK3TNU2KXD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -419,8 +427,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = RK3TNU2KXD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

@@ -36,8 +36,8 @@ class ReqularExpressionMatching1 {
     func isMatch(_ s: String, _ p: String) -> Bool {
         guard s != p else { return true }
         guard !p.isEmpty else { return false }
-        var chars = [Character](s.characters)
-        var regs = [Character](p.characters)
+        var chars = [Character](s)
+        var regs = [Character](p)
         // 表示 s的前i个和p的前j个匹配程度
         var res = [[Bool]].init(repeating: [Bool](repeating: false, count: regs.count + 1), count: chars.count + 1)
         res[0][0] = true
@@ -88,8 +88,8 @@ class ReqularExpressionMatching2 {
         guard s != p else { return true }
         guard p != ".*" else { return true }
         
-        let chars = [Character](s.characters)
-        let regs = [Character](p.characters)
+        let chars = [Character](s)
+        let regs = [Character](p)
         
         return matchStr(chars, fixStr(regs))
     }

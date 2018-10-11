@@ -36,13 +36,13 @@ class ReverseInteger {
     
     func reverse_other(_ x: Int) -> Int {
         if x > 0 {
-            let result = Int(String(String(x).characters.reversed()))!
+            let result = Int(String(String(x).reversed()))!
             if result > Int(Int32.max) {
                 return 0;
             }
             return result;
         } else {
-            let result = Int(String(String(abs(x)).characters.reversed()))!
+            let result = Int(String(String(abs(x)).reversed()))!
             if result > Int(Int32.max) {
                 return 0;
             }

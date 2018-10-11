@@ -36,10 +36,10 @@ class SubstringwithConcatenationofAllWords: NSObject {
     
     func findSubstring(_ s: String, _ words: [String]) -> [Int] {
         guard words.count > 0 else { return [] }
-        let lengh = words[0].characters.count
+        let lengh = words[0].count
         guard lengh > 0 else { return [] }
-        guard s.characters.count >= words.count * lengh else { return [] }
-        let chars = [Character](s.characters)
+        guard s.count >= words.count * lengh else { return [] }
+        let chars = [Character](s)
         let allCount = words.count
         var buffC = [[Int]].init(repeating: [], count: chars.count)
         var result = [Int]()

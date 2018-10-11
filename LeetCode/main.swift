@@ -152,6 +152,8 @@ extension Array where Element == Int {
 
 //print(Combination_Sum_II().combinationSum2([4,4,2,1,4,2,2,1,3], 6))
 
-print(First_Missing_Positive().firstMissingPositive([-1,4,2,1,9,10]))
-
+//print(First_Missing_Positive().firstMissingPositive([-1,4,2,1,9,10]))
+//                    0 1 2 3 4 5 6 7 8
+print(接雨水().trap([9,2,9,3,2,2,1,4,8]))
+//print(接雨水().trap([3,0,1,2]))
 

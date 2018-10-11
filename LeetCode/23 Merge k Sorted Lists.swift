@@ -33,9 +33,9 @@ class MergeKSortedLists {
      * }
      */
     func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
-        var lists : [ListNode] = lists.flatMap{$0}
+        var lists : [ListNode] = lists.compactMap{$0}
         while lists.count > 1 {
-            lists = stride(from: 0, to:lists.count - 1 , by: 2).flatMap({ mergeTwoLists(lists[$0], lists[$0 + 1])! }) + (lists.count % 2 == 1 ? [lists.last!] : [])
+            lists = stride(from: 0, to:lists.count - 1 , by: 2).compactMap({ mergeTwoLists(lists[$0], lists[$0 + 1])! }) + (lists.count % 2 == 1 ? [lists.last!] : [])
         }
         return lists.count > 0 ? lists[0] : nil
     }

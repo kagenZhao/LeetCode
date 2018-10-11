@@ -27,7 +27,7 @@ class LongestSubStringWithoutRepetingCharacters {
         var dic = [Character: Int]()
         var start = 0
         var num = 0
-        for (idx, value) in s.characters.enumerated(){
+        for (idx, value) in s.enumerated(){
             if let i = dic[value], start <= i {
                 start = i + 1
             } else {

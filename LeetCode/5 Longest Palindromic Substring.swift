@@ -25,7 +25,7 @@ import Foundation
  */
 class LongestPalindromicSubstring {
     func longestPalindrome(_ s: String) -> String {
-        let chars = [Character](s.characters);
+        let chars = [Character](s);
         let count = chars.count
         if count <= 1 {
             return s

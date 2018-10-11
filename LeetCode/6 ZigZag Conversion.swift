@@ -23,7 +23,7 @@ class ZigZagConversion {
             return s
         }
         
-        let chars = [Character](s.characters)
+        let chars = [Character](s)
         
         let loop = numRows + (numRows - 2)
         var result = ""

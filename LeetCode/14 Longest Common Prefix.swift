@@ -20,8 +20,8 @@ class LongestCommonPrefix {
     func longestCommonPrefix(_ strs: [String]) -> String {
         guard strs.count > 0 else { return "" }
         var s = strs.sorted()
-        let firstChars = [Character](s[0].characters)
-        let lastChars = [Character](s.last!.characters)
+        let firstChars = [Character](s[0])
+        let lastChars = [Character](s.last!)
         let count = min(firstChars.count, lastChars.count)
         var i = 0
         if count >= 0 {

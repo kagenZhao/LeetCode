@@ -13,7 +13,7 @@ import Foundation
  */
 class StringToInteger {
     func myAtoi(_ str: String) -> Int {
-        let chars = [Character](str.characters)
+        let chars = [Character](str)
         var result = 0;
         var prefix = true
         var sign = 0

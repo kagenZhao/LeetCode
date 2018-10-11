@@ -22,7 +22,7 @@ import Foundation
 class ValidParentheses1 {
     func isValid(_ s: String) -> Bool {
         var position = [Character]()
-        let chars = [Character](s.characters)
+        let chars = [Character](s)
         guard chars.count % 2 == 0 else { return false }
         for c in chars {
             switch c {
